@@ -13,15 +13,15 @@ Python-based R&D GREET implementation enabling programmatic access to transporta
 
 **Platform**: [PyGREET](https://greet.anl.gov/pygreet)
 
-**Tech Stack**: Python, React, Django, SQLite, TypeScript
+**Tech Stack**: Python, React, Django, SQLite, JavaScript, TypeScript
 
 **Methodology**: LCA Modeling, Modulith and Layer Architecture
 
 ### Key Features
-- Native Python access to GREET functionality and databases
-- Biogenic carbon accounting
-- Supply chain dependency tracking
-- ACID for ensuring LCI data integrity
+- Advanced formula and parameter management
+- Automatic unit handling and dimensionality checks
+- Supply chain dependency tracking and selective filtering
+- Multiple isolated datasets to work locally
 
 ### Applications
 - Transportation and energy system life cycle assessments
@@ -37,7 +37,7 @@ Python-based R&D GREET implementation enabling programmatic access to transporta
 
 <div class="about-section" markdown="1">
 
-AI-assisted data engineering pipeline transforming GREET data into OpenLCA JSON-LD format with intelligent flow mapping to U.S. Federal LCA Commons standards.
+Data engineering pipeline transforming GREET data into OpenLCA JSON-LD format with AI-assisted flows and processes mapping to U.S. Federal LCA Commons standards.
 
 **Platform**: [GREET OpenLCA Interface](https://greet.anl.gov/openlca_interface)
 
@@ -48,8 +48,9 @@ AI-assisted data engineering pipeline transforming GREET data into OpenLCA JSON-
 ### Key Features
 - GREET to OpenLCA JSON-LD format conversion
 - AI-assisted mapping using RAG and LLM-as-judge workflow
-- Automated categorization with 4-digit NAICS codes
+- Automated process categorization with 4-digit NAICS codes
 - U.S. Federal LCA Commons elementary flow alignment
+- Automated technosphere flows categorization with 4-digit NAICS codes
 
 ### Applications
 - Government sustainability assessments with standardized data
@@ -65,7 +66,7 @@ AI-assisted data engineering pipeline transforming GREET data into OpenLCA JSON-
 
 <div class="about-section" markdown="1">
 
-Modern data engineering platform for analyzing plastic additives chemical flow patterns using EPA TRI data and statistical modeling.
+Data engineering platform for analyzing plastic additives chemical flow patterns using EPA TRI data and statistical modeling.
 
 **GitHub**: [jodhernandezbe/TRI4PLADS](https://github.com/jodhernandezbe/TRI4PLADS)
 
@@ -110,8 +111,7 @@ Machine learning API for predicting chemical end-of-life scenarios using structu
 ### Key Features
 - Structure-based chemical classification models
 - RESTful API for real-time chemical fate predictions
-- Batch processing for large chemical datasets
-- Integration with regulatory assessment workflows
+- Probability of end-of-life scenario given input parameters
 
 ### Applications
 - EPA chemical risk evaluations
@@ -135,7 +135,7 @@ FastAPI platform for analyzing and comparing pollutant release data across three
 
 **Data Sources**: NPRI (Canada), NPI (Australia), TRI (USA)
 
-**Tech Stack**: FastAPI, SQLite, SQLAlchemy ORM, AWS EC2
+**Tech Stack**: FastAPI, SQLite, SQLAlchemy ORM, AWS EC2, JavaScript, HTML, CSS
 
 **Methodology**: RESTful API design, Cross-country data harmonization
 
@@ -143,7 +143,6 @@ FastAPI platform for analyzing and comparing pollutant release data across three
 - Cross-country pollutant data comparison API
 - Interactive dashboard with visualizations
 - Standardized schema across PRTR systems
-- AWS deployment with automated documentation
 
 ### Applications
 - International environmental policy analysis
@@ -159,7 +158,7 @@ FastAPI platform for analyzing and comparing pollutant release data across three
 
 <div class="about-section" markdown="1">
 
-Official EPA system for standardizing and integrating environmental emissions and waste data across multiple regulatory programs.
+EPA system for standardizing and integrating environmental emissions and waste data across multiple regulatory programs.
 
 **GitHub**: [USEPA/standardizedinventories](https://github.com/USEPA/standardizedinventories)
 
@@ -203,8 +202,7 @@ Python framework for tracking chemical waste flows and identifying recycling, tr
 
 ### Key Features
 - Chemical waste flow tracking and analysis
-- RETDF facility identification and mapping
-- Integration with PAU4Chem for pollution abatement analysis
+- Recycling, energy recovery, treatment, and disposal facilities identification and mapping
 - Circular life cycle analysis capabilities
 
 ### Applications
