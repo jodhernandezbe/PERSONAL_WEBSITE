@@ -107,7 +107,7 @@ Medium publications and technical articles on data science, software development
 
 - The AI Era: Why Scientific Thinking is the Superpower You Need (2025) [Medium Link](https://medium.com/@jodhernandezbemj/the-ai-era-why-scientific-thinking-is-the-superpower-you-need-989e9a5b3290?sk=a409a1d9f8dbd38e453dec5f10651b95)
 
-- From Renaissance to AI: Imagining Leonardo da Vinci’s Journey Through Innovation (2023 [Medium Link](https://medium.com/@jodhernandezbemj/from-renaissance-to-ai-imagining-leonardo-da-vincis-journey-through-innovation-c742bc019842?sk=df0a0f41fb63c0c6a3ea60e1e0e27a52)
+- From Renaissance to AI: Imagining Leonardo da Vinci’s Journey Through Innovation (2023) [Medium Link](https://medium.com/@jodhernandezbemj/from-renaissance-to-ai-imagining-leonardo-da-vincis-journey-through-innovation-c742bc019842?sk=df0a0f41fb63c0c6a3ea60e1e0e27a52)
 
 ### Key Data Science and Machine Learning Publications
 
