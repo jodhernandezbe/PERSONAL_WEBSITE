@@ -17,6 +17,17 @@
             <li><a href="{{ "/publications/" | relative_url }}" {% if page.url == "/publications/" %}class="current"{% endif %}>Publications</a></li>
             <li><a href="{{ "/software/" | relative_url }}" {% if page.url == "/software/" %}class="current"{% endif %}>Software</a></li>
           </ul>
+          <button class="greedy-nav__toggle hidden" type="button">
+            <span class="visually-hidden">Toggle menu</span>
+            <div class="navicon"></div>
+          </button>
+          <ul class="hidden-links hidden">
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/experience/" | relative_url }}">Experience</a></li>
+            <li><a href="{{ "/research/" | relative_url }}">Research</a></li>
+            <li><a href="{{ "/publications/" | relative_url }}">Publications</a></li>
+            <li><a href="{{ "/software/" | relative_url }}">Software</a></li>
+          </ul>
         </nav>
       </div>
     </div>
@@ -685,7 +696,125 @@
       color: #0056b3;
       text-decoration-thickness: 2px;
     }
+    /* Mobile navigation styles */
+    .greedy-nav__toggle {
+      display: none;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0.5em;
+      margin-left: auto;
+    }
+
+    .navicon {
+      width: 20px;
+      height: 2px;
+      background: #333;
+      position: relative;
+      transition: background 0.3s;
+      display: block;
+    }
+
+    .navicon::before,
+    .navicon::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #333;
+      transition: transform 0.3s;
+      left: 0;
+    }
+
+    .navicon::before {
+      top: -6px;
+    }
+
+    .navicon::after {
+      top: 6px;
+    }
+
+    .greedy-nav__toggle.close .navicon {
+      background: transparent;
+    }
+
+    .greedy-nav__toggle.close .navicon::before {
+      transform: rotate(45deg) translate(4px, 4px);
+    }
+
+    .greedy-nav__toggle.close .navicon::after {
+      transform: rotate(-45deg) translate(4px, -4px);
+    }
+
+    .hidden-links {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      z-index: 1000;
+      min-width: 200px;
+    }
+
+    .hidden-links li {
+      list-style: none;
+    }
+
+    .hidden-links a {
+      display: block;
+      padding: 1em 1.5em;
+      color: #333;
+      text-decoration: none;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .hidden-links a:hover {
+      background: #f8f9fa;
+      color: #007acc;
+    }
+
+    .hidden-links li:last-child a {
+      border-bottom: none;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    @media (max-width: 768px) {
+      .visible-links {
+        display: none;
+      }
+
+      .greedy-nav__toggle {
+        display: block !important;
+      }
+
+      .greedy-nav__toggle.hidden {
+        display: block !important;
+      }
+
+      .greedy-nav {
+        position: relative;
+      }
+    }
   </style>
+
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 
 </body>
 </html>
