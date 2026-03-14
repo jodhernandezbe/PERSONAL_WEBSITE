@@ -93,3 +93,38 @@ permalink: /publications/
 </div>
 
 </details>
+
+<details>
+<summary><strong>Blog Articles & Technical Writing</strong></summary>
+
+<div class="research-area" markdown="1">
+
+Medium publications and technical articles on data science, software development, and connecting ideas
+
+### Key Personal Thought Publications
+
+- How similar are grant writing and agile thinking? (2025) [Medium Link](https://medium.com/@jodhernandezbemj/what-grant-writing-taught-me-about-startups-and-vice-versa-0e29558efc54)
+
+- The AI Era: Why Scientific Thinking is the Superpower You Need (2025) [Medium Link](https://medium.com/@jodhernandezbemj/the-ai-era-why-scientific-thinking-is-the-superpower-you-need-989e9a5b3290?sk=a409a1d9f8dbd38e453dec5f10651b95)
+
+- From Renaissance to AI: Imagining Leonardo da Vinci’s Journey Through Innovation (2023 [Medium Link](https://medium.com/@jodhernandezbemj/from-renaissance-to-ai-imagining-leonardo-da-vincis-journey-through-innovation-c742bc019842?sk=df0a0f41fb63c0c6a3ea60e1e0e27a52)
+
+### Key Data Science and Machine Learning Publications
+
+- Gated Recurrent Neural Network from Scratch in Julia (2023) [Medium Link](https://medium.com/towards-artificial-intelligence/gated-recurrent-neural-network-from-scratch-in-julia-ad8b2dabe37f?sk=153351e0e087318490adcc0147c66b69)
+
+- Heteroscedasticity and Homoscedasticity in Regression Learning (2023) [Medium Link](https://medium.com/towards-artificial-intelligence/heteroscedasticity-and-homoscedasticity-in-regression-learning-271e7c6ca4ea)
+
+- Unveiling the Hidden Markov Model: Concepts, Mathematics, and Real-Life Applications (2023) [Medium Link](https://medium.com/@jodhernandezbemj/unveiling-the-hidden-markov-chain-concepts-mathematics-and-real-life-applications-16fea5e6a884?sk=6f4c83b6d2c3383a4c71f191e639b662)
+
+### Key Infrastructure Publications
+
+- Using Docker containers for AWS Glue jobs local development (2023) [Medium Link](https://medium.com/globalwork-data-driven-world/using-docker-containers-for-aws-glue-jobs-local-development-68b283857a15?sk=16093b27f71e1a4dd3a36bf6347acd0b)
+
+- Data orchestration using Prefect and PySpark (2023) [Medium Link](https://medium.com/globalwork-data-driven-world/data-orchestration-using-prefect-and-pyspark-7321559864f7?sk=e5cc84626615293149bf7c2fda78ed04)
+
+- Rotating user passwords in databases hosted in AWS (2023)[Medium Link](https://medium.com/globalwork-data-driven-world/rotating-user-passwords-in-databases-hosted-in-aws-cda6f7e9c40e?sk=d4837538268ee1c4d28a9123c8dac901)
+
+</div>
+
+</details>
