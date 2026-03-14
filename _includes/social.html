@@ -1,0 +1,10 @@
+<ul class="social-media-list">
+  {% for link in site.minima.social_links %}
+    <li>
+      <a href="{{ link.url | escape }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#' | relative_url }}{{ link.platform }}"></use></svg>
+        <span class="username">{{ link.label | escape }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

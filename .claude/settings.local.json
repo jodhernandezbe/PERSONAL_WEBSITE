@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec jekyll serve --port 4001)",
+      "Bash(bundle exec jekyll build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

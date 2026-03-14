@@ -1,0 +1,46 @@
+title: Jose D. Hernandez-Betancur
+email: jodhernandezbemj@gmail.com
+description: >-
+  Associate Energy Systems Analyst at Argonne National Laboratory specializing in Life Cycle Assessment (LCA)
+  modeling and software development with expertise in Chemical Engineering, environmental sustainability,
+  and data-driven frameworks for chemical risk assessment.
+
+baseurl: ""
+url: ""
+
+github_username: jodhernandezbe
+linkedin_username: jodhernandezbe
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# header_pages:
+#   - research.md
+#   - publications.md
+#   - experience.md
+#   - applications.md
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, url: "https://github.com/jodhernandezbe", label: "Personal GitHub" }
+    - { platform: github, url: "https://github.com/jhernandezbetancur", label: "Argonne GitHub" }
+    - { platform: linkedin, url: "https://linkedin.com/in/jodhernandezbe", label: "LinkedIn" }
+    - { platform: googlescholar, url: "https://scholar.google.com/citations?user=VuUfHZ0AAAAJ&hl=en", label: "Google Scholar" }
+    - { platform: medium, url: "https://medium.com/@jodhernandezbemj", label: "Medium" }
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+  <!-- Top navigation bar -->
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav class="greedy-nav">
+          <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          <ul class="visible-links">
+            <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="current"{% endif %}>Home</a></li>
+            <li><a href="{{ "/experience/" | relative_url }}" {% if page.url == "/experience/" %}class="current"{% endif %}>Experience</a></li>
+            <li><a href="{{ "/research/" | relative_url }}" {% if page.url == "/research/" %}class="current"{% endif %}>Research</a></li>
+            <li><a href="{{ "/publications/" | relative_url }}" {% if page.url == "/publications/" %}class="current"{% endif %}>Publications</a></li>
+            <li><a href="{{ "/software/" | relative_url }}" {% if page.url == "/software/" %}class="current"{% endif %}>Software</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div id="main" role="main">
+    <!-- Left sidebar with author info -->
+    <div class="sidebar sticky">
+      <div class="author-profile">
+        <div class="author__avatar">
+          <img src="/assets/images/profile.jpg" class="author__avatar" alt="{{ site.title | escape }}" />
+        </div>
+
+        <div class="author__content">
+          <h3 class="author__name">{{ site.title | escape }}</h3>
+          <p class="author__bio">{{ site.description | escape }}</p>
+        </div>
+
+        <div class="author__urls-wrapper">
+          <ul class="author__urls social-icons">
+            <li><a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a></li>
+            {%- for link in site.minima.social_links -%}
+              {%- if link.platform == "github" -%}
+                <li><a href="{{ link.url }}"><i class="fab fa-github"></i> {{ link.label }}</a></li>
+              {%- elsif link.platform == "linkedin" -%}
+                <li><a href="{{ link.url }}"><i class="fab fa-linkedin"></i> {{ link.label }}</a></li>
+              {%- elsif link.platform == "googlescholar" -%}
+                <li><a href="{{ link.url }}"><i class="ai ai-google-scholar"></i> {{ link.label }}</a></li>
+              {%- elsif link.platform == "medium" -%}
+                <li><a href="{{ link.url }}"><i class="fab fa-medium"></i> {{ link.label }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+            <li><i class="fas fa-building"></i> Argonne National Laboratory</li>
+            <li><i class="fas fa-location-dot"></i> Chicago, IL, USA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content area -->
+    <article class="page">
+      <div class="page__inner-wrap">
+        <header>
+          <h1 class="page__title">{{ page.title | default: site.title | escape }}</h1>
+        </header>
+
+        <section class="page__content">
+          {{ content }}
+        </section>
+      </div>
+    </article>
+  </div>
+
+  <div class="page__footer">
+    <footer>
+      <div class="page__footer-copyright">
+        © {{ "now" | date: "%Y" }} {{ site.title | escape }}.
+        Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+      </div>
+    </footer>
+  </div>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+    @import url('https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css');
+
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+    }
+
+    /* Top navigation */
+    .masthead {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 20;
+      background-color: #fff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .masthead__inner-wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1em;
+    }
+
+    .greedy-nav {
+      display: flex;
+      align-items: center;
+      min-height: 60px;
+    }
+
+    .site-title {
+      font-size: 1.2em;
+      font-weight: 600;
+      text-decoration: none;
+      color: #333;
+      margin-right: 2em;
+    }
+
+    .visible-links {
+      display: flex;
+      list-style: none;
+      margin-left: auto;
+    }
+
+    .visible-links li {
+      margin-left: 2em;
+    }
+
+    .visible-links a {
+      text-decoration: none;
+      color: #666;
+      font-weight: 400;
+      padding: 0.5em 0;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s ease;
+    }
+
+    .visible-links a:hover,
+    .visible-links a.current {
+      color: #333;
+      border-bottom-color: #007acc;
+    }
+
+    /* Main layout */
+    #main {
+      margin-top: 60px;
+      display: flex;
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2em 1em;
+      gap: 3em;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 300px;
+      flex-shrink: 0;
+    }
+
+    .author-profile {
+      position: sticky;
+      top: 80px;
+    }
+
+    .author__avatar {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 1.5em;
+    }
+
+    .author__avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .author__content {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
+    .author__name {
+      font-size: 1.4em;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+      color: #333;
+    }
+
+    .author__bio {
+      color: #666;
+      font-size: 0.9em;
+      line-height: 1.4;
+    }
+
+    .author__urls {
+      list-style: none;
+    }
+
+    .author__urls li {
+      margin-bottom: 0.5em;
+    }
+
+    .author__urls a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #666;
+      font-size: 0.85em;
+      transition: color 0.2s ease;
+    }
+
+    .author__urls a:hover {
+      color: #007acc;
+    }
+
+    .author__urls i {
+      width: 20px;
+      margin-right: 8px;
+      text-align: center;
+    }
+
+    /* Main content */
+    .page {
+      flex: 1;
+      max-width: calc(100% - 300px - 3em);
+    }
+
+    .page__title {
+      font-size: 2.5em;
+      font-weight: 700;
+      margin-bottom: 1em;
+      color: #333;
+      line-height: 1.2;
+    }
+
+    .page__content {
+      font-size: 1.05em;
+      line-height: 1.7;
+    }
+
+    .page__content h1,
+    .page__content h2,
+    .page__content h3,
+    .page__content h4,
+    .page__content h5,
+    .page__content h6 {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      font-weight: 600;
+      line-height: 1.3;
+      color: #333;
+    }
+
+    .page__content h1 {
+      font-size: 2em;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 0.3em;
+    }
+
+    .page__content h2 {
+      font-size: 1.5em;
+    }
+
+    .page__content p {
+      margin-bottom: 1.5em;
+    }
+
+    .page__content ul,
+    .page__content ol {
+      margin-bottom: 1.5em;
+      padding-left: 2em;
+    }
+
+    .page__content li {
+      margin-bottom: 0.5em;
+    }
+
+    .page__content a {
+      color: #007acc;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .page__content a:hover {
+      color: #0056b3;
+    }
+
+    .page__content strong {
+      font-weight: 600;
+    }
+
+    .page__content em {
+      font-style: italic;
+      color: #666;
+    }
+
+    .page__content blockquote {
+      border-left: 4px solid #007acc;
+      margin: 2em 0;
+      padding-left: 1.5em;
+      font-style: italic;
+      color: #666;
+    }
+
+    .page__content hr {
+      border: none;
+      height: 1px;
+      background-color: #e5e5e5;
+      margin: 3em 0;
+    }
+
+    /* Footer */
+    .page__footer {
+      border-top: 1px solid #e5e5e5;
+      margin-top: 4em;
+      padding: 2em 0;
+      text-align: center;
+    }
+
+    .page__footer-copyright {
+      font-size: 0.85em;
+      color: #666;
+    }
+
+    .page__footer-copyright a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .page__footer-copyright a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      #main {
+        flex-direction: column;
+        margin-top: 60px;
+        padding: 1em;
+        gap: 2em;
+      }
+
+      .sidebar {
+        width: 100%;
+        position: static;
+      }
+
+      .author-profile {
+        position: static;
+        text-align: center;
+      }
+
+      .author__avatar {
+        width: 150px;
+        height: 150px;
+      }
+
+      .page {
+        max-width: 100%;
+      }
+
+      .page__title {
+        font-size: 2em;
+      }
+
+      .visible-links {
+        display: none;
+      }
+
+      .masthead__menu {
+        position: relative;
+      }
+
+      /* Simple mobile menu toggle */
+      .masthead__menu::after {
+        content: "☰";
+        font-size: 1.2em;
+        margin-left: auto;
+        cursor: pointer;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .page__title {
+        font-size: 1.7em;
+      }
+
+      .page__content {
+        font-size: 1em;
+      }
+    }
+
+    /* Collapsible sections styling */
+    details {
+      margin: 2em 0;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    details summary {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      padding: 1.2em 1.5em;
+      cursor: pointer;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: #333;
+      border: none;
+      outline: none;
+      display: flex;
+      align-items: center;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    details summary:hover {
+      background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+      color: #007acc;
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details summary::before {
+      content: "▶";
+      margin-right: 1em;
+      font-size: 0.8em;
+      transition: transform 0.3s ease;
+      color: #007acc;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details[open] summary {
+      background: linear-gradient(135deg, #007acc 0%, #0056b3 100%);
+      color: white;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    details[open] summary::before {
+      color: white;
+    }
+
+    .research-area {
+      padding: 2em;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    .research-area p {
+      margin-bottom: 1.5em;
+      color: #666;
+      font-style: italic;
+    }
+
+    .research-area h3 {
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+      color: #007acc;
+      font-size: 1.3em;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 0.5em;
+    }
+
+    .research-area h3:first-of-type {
+      margin-top: 0;
+    }
+
+    /* Research publication styling */
+    .research-area strong {
+      color: #333;
+      font-weight: 600;
+    }
+
+    .research-area ul {
+      margin: 1em 0;
+      padding-left: 0;
+      list-style: none;
+      counter-reset: publication-counter;
+    }
+
+    .research-area li {
+      margin-bottom: 1.5em;
+      padding-left: 2.5em;
+      position: relative;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .research-area li::before {
+      counter-increment: publication-counter;
+      content: "[" counter(publication-counter) "]";
+      color: #007acc;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 0.9em;
+      width: 2em;
+      text-align: left;
+    }
+
+    .research-area em {
+      color: #007acc;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    .research-area a {
+      color: #007acc;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
+
+    .research-area a:hover {
+      color: #0056b3;
+      text-decoration-thickness: 2px;
+    }
+
+    /* Experience role styling - reuse research-area styles */
+    .experience-role {
+      padding: 2em;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    .experience-role p {
+      margin-bottom: 1.5em;
+      color: #666;
+      font-style: italic;
+    }
+
+    .experience-role h3 {
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+      color: #007acc;
+      font-size: 1.3em;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 0.5em;
+    }
+
+    .experience-role h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .experience-role strong {
+      color: #333;
+      font-weight: 600;
+    }
+
+    .experience-role ul {
+      margin: 1em 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .experience-role li {
+      margin-bottom: 1.5em;
+      padding-left: 1.5em;
+      position: relative;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .experience-role li::before {
+      content: "•";
+      color: #007acc;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .experience-role em {
+      color: #007acc;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    .experience-role a {
+      color: #007acc;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
+
+    .experience-role a:hover {
+      color: #0056b3;
+      text-decoration-thickness: 2px;
+    }
+
+    /* About section styling - reuse experience-role styles */
+    .about-section {
+      padding: 2em;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    .about-section p {
+      margin-bottom: 1.5em;
+      color: #666;
+      font-style: italic;
+    }
+
+    .about-section h3 {
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+      color: #007acc;
+      font-size: 1.3em;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 0.5em;
+    }
+
+    .about-section h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .about-section strong {
+      color: #333;
+      font-weight: 600;
+    }
+
+    .about-section ul {
+      margin: 1em 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .about-section li {
+      margin-bottom: 1em;
+      padding-left: 1.5em;
+      position: relative;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .about-section li::before {
+      content: "•";
+      color: #007acc;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .about-section em {
+      color: #007acc;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    .about-section a {
+      color: #007acc;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
+
+    .about-section a:hover {
+      color: #0056b3;
+      text-decoration-thickness: 2px;
+    }
+  </style>
+
+</body>
+</html>
