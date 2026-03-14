@@ -9,17 +9,19 @@ permalink: /software/
 
 <div class="about-section" markdown="1">
 
-Next-generation Python interface for the GREET life cycle assessment model, enabling programmatic access to transportation and energy system analysis.
+Python-based R&D GREET implementation enabling programmatic access to transportation and energy system life cycle assessment.
 
 **Platform**: [PyGREET](https://greet.anl.gov/pygreet)
-**Tech Stack**: Python, FastAPI, Jupyter Notebooks, SQLite
-**Methodology**: LCA Modeling, Automated Workflows, Educational Interface Design
+
+**Tech Stack**: Python, React, Django, SQLite, TypeScript
+
+**Methodology**: LCA Modeling, Modulith and Layer Architecture
 
 ### Key Features
 - Native Python access to GREET functionality and databases
-- Interactive Jupyter notebooks for LCA analysis and visualization
-- Automated batch processing and sensitivity analysis
-- Educational tools for universities and training programs
+- Biogenic carbon accounting
+- Supply chain dependency tracking
+- ACID for ensuring LCI data integrity
 
 ### Applications
 - Transportation and energy system life cycle assessments
@@ -38,7 +40,9 @@ Next-generation Python interface for the GREET life cycle assessment model, enab
 AI-assisted data engineering pipeline transforming GREET data into OpenLCA JSON-LD format with intelligent flow mapping to U.S. Federal LCA Commons standards.
 
 **Platform**: [GREET OpenLCA Interface](https://greet.anl.gov/openlca_interface)
+
 **Tech Stack**: Python, Django REST Framework, Streamlit, PostgreSQL
+
 **Methodology**: RAG, LLM-as-judge, Data Engineering Pipeline
 
 ### Key Features
@@ -64,8 +68,11 @@ AI-assisted data engineering pipeline transforming GREET data into OpenLCA JSON-
 Modern data engineering platform for analyzing plastic additives chemical flow patterns using EPA TRI data and statistical modeling.
 
 **GitHub**: [jodhernandezbe/TRI4PLADS](https://github.com/jodhernandezbe/TRI4PLADS)
+
 **PyPI Package**: [tri4plads](https://pypi.org/project/focapd/)
+
 **Tech Stack**: Python 3.12+, Poetry, SQLite, Alembic
+
 **Methodology**: Data engineering pipeline, Statistical modeling
 
 ### Key Features
@@ -91,8 +98,13 @@ Modern data engineering platform for analyzing plastic additives chemical flow p
 Machine learning API for predicting chemical end-of-life scenarios using structure-based classification models.
 
 **GitHub**: [jodhernandezbe/prtr_deployment](https://github.com/jodhernandezbe/prtr_deployment)
+
+**Live Demo**: [Model API](http://3.92.83.22:5000/v1/api_documentation)
+
 **Research Foundation**: [ACS Sustainable Chemistry & Engineering](https://doi.org/10.1021/acssuschemeng.2c05662)
+
 **Tech Stack**: FastAPI, Python, Scikit-learn, AWS EC2, Docker
+
 **Methodology**: Machine Learning, Structure-based classification
 
 ### Key Features
@@ -118,8 +130,13 @@ Machine learning API for predicting chemical end-of-life scenarios using structu
 FastAPI platform for analyzing and comparing pollutant release data across three international regulatory systems.
 
 **GitHub**: [jodhernandezbe/PRTR_transfers_FastAPI](https://github.com/jodhernandezbe/PRTR_transfers_FastAPI)
+
+**Live Demo**: [AWS Deployment](http://ec2-50-19-131-127.compute-1.amazonaws.com/)
+
 **Data Sources**: NPRI (Canada), NPI (Australia), TRI (USA)
+
 **Tech Stack**: FastAPI, SQLite, SQLAlchemy ORM, AWS EC2
+
 **Methodology**: RESTful API design, Cross-country data harmonization
 
 ### Key Features
@@ -145,9 +162,13 @@ FastAPI platform for analyzing and comparing pollutant release data across three
 Official EPA system for standardizing and integrating environmental emissions and waste data across multiple regulatory programs.
 
 **GitHub**: [USEPA/standardizedinventories](https://github.com/USEPA/standardizedinventories)
+
 **Data Products**: [EPA StEWI Data Catalog](https://catalog.data.gov/dataset/stewi-v1-0-5-data-products)
+
 **Coverage**: 6 major EPA inventories (2011-2023)
+
 **Tech Stack**: Python, Apache Parquet, Pandas
+
 **Methodology**: ETL frameworks, Data standardization
 
 ### Key Features
@@ -173,8 +194,11 @@ Official EPA system for standardizing and integrating environmental emissions an
 Python framework for tracking chemical waste flows and identifying recycling, treatment, and disposal facilities using EPA databases.
 
 **GitHub**: [jodhernandezbe/EoL4Chem](https://github.com/jodhernandezbe/EoL4Chem)
+
 **Data Sources**: EPA CDR, TRI, RCRAInfo, FRS databases
+
 **Tech Stack**: Python, BeautifulSoup, Pandas, SQLite, Matplotlib
+
 **Methodology**: Web scraping, ETL pipelines, Circular economy analysis
 
 ### Key Features
@@ -200,8 +224,11 @@ Python framework for tracking chemical waste flows and identifying recycling, tr
 Web scraping tool for extracting chemical pricing and supplier information from CAS SciFinder database.
 
 **GitHub**: [jodhernandezbe/SciFinder_Scraper](https://github.com/jodhernandezbe/SciFinder_Scraper)
+
 **Data Source**: CAS SciFinder Database
+
 **Tech Stack**: Python, Selenium WebDriver, Pandas
+
 **Methodology**: Web scraping, Batch processing
 
 ### Key Features
@@ -227,8 +254,11 @@ Web scraping tool for extracting chemical pricing and supplier information from 
 Web scraping framework for gathering chemical properties from multiple authoritative databases.
 
 **GitHub**: [jodhernandezbe/Properties_Scraper](https://github.com/jodhernandezbe/Properties_Scraper)
+
 **Data Sources**: NOAA CAMEO, OSHA, NIST, EPA CompTox, IFA GESTIS
+
 **Tech Stack**: Python, Selenium WebDriver, Pandas
+
 **Methodology**: Web scraping, Multi-source data integration
 
 ### Key Features
@@ -254,8 +284,11 @@ Web scraping framework for gathering chemical properties from multiple authorita
 Python framework for tracking chemical flows in pollution abatement units using EPA TRI data.
 
 **GitHub**: [jodhernandezbe/PAU4Chem](https://github.com/jodhernandezbe/PAU4Chem)
+
 **Data Sources**: EPA TRI Basic Plus Data Files (1987-2018)
+
 **Tech Stack**: Python, BeautifulSoup, Pandas, NumPy, SciPy
+
 **Methodology**: Web scraping, Statistical analysis, Chemical flow modeling
 
 ### Key Features
