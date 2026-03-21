@@ -5,7 +5,7 @@ permalink: /software/
 ---
 
 <details>
-<summary><strong>PyGREET</strong> - Python Interface for GREET Life Cycle Assessment</summary>
+<summary><strong>PyGREET</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -33,7 +33,7 @@ Python-based R&D GREET implementation enabling programmatic access to transporta
 </details>
 
 <details>
-<summary><strong>GREET OpenLCA Interface</strong> - LCA Data Engineering & AI-Assisted Mapping Platform</summary>
+<summary><strong>GREET OpenLCA Interface</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -62,7 +62,7 @@ Data engineering pipeline transforming GREET data into OpenLCA JSON-LD format wi
 </details>
 
 <details>
-<summary><strong>TRI4PLADS</strong> - Plastic Additives End-of-Life Analysis Platform</summary>
+<summary><strong>TRI4PLADS</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -92,15 +92,13 @@ Data engineering platform for analyzing plastic additives chemical flow patterns
 </details>
 
 <details>
-<summary><strong>Chemical End-of-Life ML Models</strong> - Structure-Based Prediction API</summary>
+<summary><strong>Chemical End-of-Life ML Models</strong></summary>
 
 <div class="about-section" markdown="1">
 
 Machine learning API for predicting chemical end-of-life scenarios using structure-based classification models.
 
 **GitHub**: [jodhernandezbe/prtr_deployment](https://github.com/jodhernandezbe/prtr_deployment)
-
-**Live Demo**: [Model API](http://3.92.83.22:5000/v1/api_documentation)
 
 **Research Foundation**: [ACS Sustainable Chemistry & Engineering](https://doi.org/10.1021/acssuschemeng.2c05662)
 
@@ -123,15 +121,13 @@ Machine learning API for predicting chemical end-of-life scenarios using structu
 </details>
 
 <details>
-<summary><strong>PRTR Transfers API</strong> - International Pollutant Release Dashboard</summary>
+<summary><strong>PRTR Transfers API</strong></summary>
 
 <div class="about-section" markdown="1">
 
 FastAPI platform for analyzing and comparing pollutant release data across three international regulatory systems.
 
 **GitHub**: [jodhernandezbe/PRTR_transfers_FastAPI](https://github.com/jodhernandezbe/PRTR_transfers_FastAPI)
-
-**Live Demo**: [AWS Deployment](http://ec2-50-19-131-127.compute-1.amazonaws.com/)
 
 **Data Sources**: NPRI (Canada), NPI (Australia), TRI (USA)
 
@@ -154,7 +150,7 @@ FastAPI platform for analyzing and comparing pollutant release data across three
 </details>
 
 <details>
-<summary><strong>StEWI</strong> - Standardized Emission and Waste Inventories</summary>
+<summary><strong>StEWI</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -186,7 +182,7 @@ EPA system for standardizing and integrating environmental emissions and waste d
 </details>
 
 <details>
-<summary><strong>EoL4Chem</strong> - Chemical Waste Flow Tracking & Analysis Framework</summary>
+<summary><strong>EoL4Chem</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -215,7 +211,7 @@ Python framework for tracking chemical waste flows and identifying recycling, tr
 </details>
 
 <details>
-<summary><strong>SciFinder Scraper</strong> - Chemical Pricing & Supplier Intelligence</summary>
+<summary><strong>SciFinder Scraper</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -245,7 +241,7 @@ Web scraping tool for extracting chemical pricing and supplier information from 
 </details>
 
 <details>
-<summary><strong>Properties Scraper</strong> - Multi-Source Chemical Property Data Collection</summary>
+<summary><strong>Properties Scraper</strong></summary>
 
 <div class="about-section" markdown="1">
 
@@ -275,7 +271,7 @@ Web scraping framework for gathering chemical properties from multiple authorita
 </details>
 
 <details>
-<summary><strong>PAU4Chem</strong> - Pollution Abatement Unit Chemical Flow Analysis</summary>
+<summary><strong>PAU4Chem</strong></summary>
 
 <div class="about-section" markdown="1">
 

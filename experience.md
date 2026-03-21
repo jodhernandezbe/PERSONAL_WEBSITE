@@ -7,9 +7,11 @@ permalink: /experience/
 ## Research Institutions & Public Sector
 
 <details>
-<summary><strong>Associate Energy Systems Analyst</strong> - Argonne National Laboratory</summary>
+<summary><strong>Associate Energy Systems Analyst</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Argonne National Laboratory**
 
 **March 2026 - Present**
 📍 Lemont, Illinois, United States
@@ -19,7 +21,7 @@ Leading the development of next-generation GREET life-cycle analysis software at
 **Key Technologies**: Python, FastAPI, Django, GitLab CI/CD, LangChain, LangGraph, JavaScript, TypeScript, React
 
 ### Key Contributions
-- **PyGREET**: Maintenance, improvement, and enhancement of the PyGREET platform
+- **PyGREET**: Maintenance, improvement, and design and architecture of the PyGREET platform and its derivatives
 - **openLCA-GREET**: Develop AI-assisted workflows for semantic harmonization to integrate U.S. Federal LCA Commons data into the PyGREET platform
 - **GREET AI**: Support AI applications for data discovery and retrieval in the electricity sector
 - **GREET.Net**: Maintenance of the GREET.Net legacy platform during the transition phase
@@ -30,9 +32,11 @@ Leading the development of next-generation GREET life-cycle analysis software at
 </details>
 
 <details>
-<summary><strong>Postdoctoral Appointee</strong> - Argonne National Laboratory</summary>
+<summary><strong>Postdoctoral Appointee</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Argonne National Laboratory**
 
 **September 2023 - March 2026**
 📍 Lemont, Illinois, United States
@@ -51,9 +55,11 @@ Lead developer for next-generation GREET life-cycle analysis software at the Ene
 </details>
 
 <details>
-<summary><strong>ORISE Research Fellow</strong> - U.S. EPA</summary>
+<summary><strong>ORISE Research Fellow</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**U.S. Environmental Protection Agency**
 
 **December 2018 - December 2020**
 📍 Cincinnati, Ohio, United States
@@ -76,9 +82,11 @@ Conducted groundbreaking research in data-driven chemical risk assessment at the
 ## Private Sector
 
 <details>
-<summary><strong>VP of Engineering</strong> - Globalwork</summary>
+<summary><strong>VP of Engineering</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Globalwork**
 
 **October 2022 - May 2023**
 📍 Medellín, Antioquia, Colombia
@@ -97,9 +105,11 @@ Led the engineering team and defined the technical vision for a startup, managin
 </details>
 
 <details>
-<summary><strong>Full-Stack Data Scientist</strong> - Globalwork</summary>
+<summary><strong>Full-Stack Data Scientist</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Globalwork**
 
 **February 2022 - December 2022**
 📍 Medellín, Antioquia, Colombia
@@ -122,9 +132,11 @@ Developed and implemented comprehensive data science solutions for startup opera
 ## Academic Institutions
 
 <details>
-<summary><strong>Adjunct Professor</strong> - Universidad Autónoma Latinoamericana</summary>
+<summary><strong>Adjunct Professor</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Universidad Autónoma Latinoamericana**
 
 **February 2021 - November 2021**
 📍 Medellín, Antioquia, Colombia
@@ -144,9 +156,11 @@ Primary instructor for undergraduate physics and web programming courses, combin
 
 
 <details>
-<summary><strong>Graduate Researcher & Instructor</strong> - Universidad Nacional de Colombia</summary>
+<summary><strong>Graduate Researcher & Instructor</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Universidad Nacional de Colombia**
 
 **2016 - 2018**
 📍 Medellín, Antioquia, Colombia
@@ -170,9 +184,11 @@ Conducted advanced research in materials and processes engineering while serving
 </details>
 
 <details>
-<summary><strong>Adjunct Professor</strong> - Institución Universitaria Esumer</summary>
+<summary><strong>Adjunct Professor</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Institución Universitaria ESUMER**
 
 **January 2017 - June 2017**
 📍 Medellín, Antioquia, Colombia
@@ -185,9 +201,11 @@ Conducted advanced research in materials and processes engineering while serving
 </details>
 
 <details>
-<summary><strong>Early Career & Academic Foundation</strong> - Universidad Nacional de Colombia</summary>
+<summary><strong>Early Career & Academic Foundation</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+**Universidad Nacional de Colombia**
 
 **2010 - 2016**
 📍 Medellín, Antioquia, Colombia
@@ -213,9 +231,12 @@ Multiple roles as an undergraduate researcher and academic tutor, building found
 ## Professional Service & Community Engagement
 
 <details>
-<summary><strong>Ad-Hoc Peer Reviewer</strong> - U.S. EPA</summary>
+<summary><strong>Ad-Hoc Peer Reviewer</strong></summary>
 
 <div class="experience-role" markdown="1">
+
+
+**U.S. Environmental Protection Agency**
 
 **August 2024 - November 2024**
 📍 United States (Remote)
