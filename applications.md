@@ -39,7 +39,7 @@ Python-based R&D GREET implementation enabling programmatic access to transporta
 
 Data engineering pipeline transforming GREET data into OpenLCA JSON-LD format with AI-assisted flows and processes mapping to U.S. Federal LCA Commons standards.
 
-**Platform**: [GREET OpenLCA Interface](https://greet.anl.gov/openlca_interface)
+**Platform**: [GREET OpenLCA Interface](https://greet-openlca.esia.anl.gov/)
 
 **Tech Stack**: Python, Django REST Framework, Streamlit, PostgreSQL
 

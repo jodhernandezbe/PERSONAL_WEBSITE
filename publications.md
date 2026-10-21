@@ -9,6 +9,8 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
+- **Hernandez-Betancur, J. D.**, Sykora, T., Ou, L., Hamori, T., Sokolov, V., Elgowainy, A., Cai, H., & Wang, M. (2026). PyGREET: A modular Python platform of the GREET life cycle analysis model for technology assessment. *Environmental Modelling & Software*, *204*, 107072. [https://doi.org/10.1016/j.envsoft.2026.107072](https://doi.org/10.1016/j.envsoft.2026.107072)
+
 - **Hernandez-Betancur, J. D.**, Chea, J. D., Perez, D., & Ruiz-Mercado, G. J. (2026). Integrating data engineering and process systems engineering for end-of-life chemical flow analysis. *Computers & Chemical Engineering*, *204*, 109414. [https://doi.org/10.1016/j.compchemeng.2025.109414](https://doi.org/10.1016/j.compchemeng.2025.109414)
 
 - **Hernandez-Betancur, J. D.**, & Ruiz-Mercado, G. J. (2025). A perspective in data and software systems to streamline the transition towards a safer chemical end-of-life management. *Current Opinion in Chemical Engineering*, *47*, 101171. [https://doi.org/10.1016/j.coche.2025.101171](https://doi.org/10.1016/j.coche.2025.101171)
@@ -49,6 +51,8 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
+- **Hernandez-Betancur, J. D.**, Iyer, R. K., Sykora, T., Kelly, J. C., Ou, L., Cai, H., & Wang, M. (2026). Life-cycle resource utilization efficiency of critical material supply chain: A stoichiometric framework in R&D GREET. *2026 American Center for Life Cycle Assessment (ACLCA) Conference*.
+
 - **Hernandez-Betancur, J. D.**, Sykora, T., Hamori, T., Ou, L., Sokolov, V., Cai, H., Elgowainy, A., & Wang, M. (2025). PyGREET – Enhancing user experience and interoperability of the GREET life cycle analysis software with Python. *2025 American Center for Life Cycle Assessment (ACLCA) Conference*.
 
 - Ou, L., **Hernandez-Betancur, J. D.**, Sykora, T., Cai, H., & Wang, M. (2024). Enabling data interoperability between GREET and openLCA. *2024 American Center for Life Cycle Assessment (ACLCA) Conference*.
@@ -87,6 +91,8 @@ permalink: /publications/
 <summary><strong>Technical Reports</strong></summary>
 
 <div class="research-area" markdown="1">
+
+- Wang, M., Cai, H., Ou, L., Benvenutti, L., Elgowainy, A., Englander, J., Masum, F., Gan, Y., **Hernandez, J.**, Kim, T., Kelly, J. C., Kwon, H., Leonhardt, B., Liu, X., Lu, Z., Martinez, S., Sykora, T., & Vyawahare, P. (2026). *R&D Greenhouse gases, Regulated Emissions, and Energy use in Technologies Model ® (2025 Rev.1 Excel)* [Computer software]. U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy (EERE). [https://doi.org/10.11578/GREET-Excel-2025Rev1/dc.20260610.1](https://doi.org/10.11578/GREET-Excel-2025Rev1/dc.20260610.1)
 
 - Cobb, G. P., Apte, U., Baker, M., Chaisson, C., Eick, S., Fong, A., Fox, M., Gentry, R., Graham, C., Heiger-Bernays, W., Jenkins, A., Li, L., Merced-Nieves, F., Ottinger, M., Rubin, R., Rumpler, M., Sahmel, J., Wright, M., Engel, B., **Hernandez-Betancur, J.**, Kaluzhny, Y., Landis, W. G., Lynch, H. N., Maberti, S. I., Rose, J. L., Stice, S. A., & Zhu, H. (2024). Transmittal of meeting minutes and final report for the Science Advisory Committee on Chemicals September 17-19, 2024, virtual public meeting regarding EPA's 2024 draft risk evaluation for 1,1-dichloroethane and 2024 draft human health hazard assessment report for 1,2 dichloroethane. *U.S. Environmental Protection Agency*. [https://downloads.regulations.gov/EPA-HQ-OPPT-2024-0114-0086/content.pdf](https://downloads.regulations.gov/EPA-HQ-OPPT-2024-0114-0086/content.pdf)
 
