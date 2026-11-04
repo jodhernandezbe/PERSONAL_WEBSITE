@@ -9,6 +9,8 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
+- **Hernandez-Betancur, J. D.** (2026). Simulation-based multi-objective sustainability optimization of hot-dip galvanizing operating conditions under uncertainty and coating quality constraints. *Clean Technologies and Environmental Policy* (under review).
+
 - **Hernandez-Betancur, J. D.**, Sykora, T., Ou, L., Hamori, T., Sokolov, V., Elgowainy, A., Cai, H., & Wang, M. (2026). PyGREET: A modular Python platform of the GREET life cycle analysis model for technology assessment. *Environmental Modelling & Software*, *204*, 107072. [https://doi.org/10.1016/j.envsoft.2026.107072](https://doi.org/10.1016/j.envsoft.2026.107072)
 
 - **Hernandez-Betancur, J. D.**, Chea, J. D., Perez, D., & Ruiz-Mercado, G. J. (2026). Integrating data engineering and process systems engineering for end-of-life chemical flow analysis. *Computers & Chemical Engineering*, *204*, 109414. [https://doi.org/10.1016/j.compchemeng.2025.109414](https://doi.org/10.1016/j.compchemeng.2025.109414)
