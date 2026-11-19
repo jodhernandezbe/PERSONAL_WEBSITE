@@ -5,6 +5,42 @@ permalink: /software/
 ---
 
 <details>
+<summary><strong>EcoFate</strong></summary>
+
+<div class="about-section" markdown="1">
+
+LLM-agent web application that turns fragmented public environmental data into screening-level chemical exposure and risk profiles. A user asks in plain words about a chemical (by CAS number), a place or a facility, and a LangGraph agent decides which of its tools to call, while every number comes from a tool or a transport model, never from the language model.
+
+**Platform**: [ecofate.org](https://ecofate.org)
+
+**GitHub**: [jodhernandezbe/EcoFate](https://github.com/jodhernandezbe/EcoFate)
+
+**DOI**: [10.5281/zenodo.24327281](https://doi.org/10.5281/zenodo.24327281)
+
+**Data Sources**: EPA TRI, NEI stack parameters, EPA CompTox, weather, U.S. Census
+
+**Tech Stack**: Python, LangChain, LangGraph, FastAPI, Celery, Redis, PostgreSQL, React, TypeScript, MapLibre, Docker, Cloudflare
+
+**Methodology**: Tool-calling LLM agent, EPA SCREEN3 screening dispersion, tiered facility screening, LLM-based evaluation
+
+### Key Features
+- Plain-language questions answered with 12 tools that join emissions, chemical properties, toxicity benchmarks, stack parameters, weather and population
+- Deterministic dispersion and exposure equations for the community and for workers, with the source of every value
+- Tiered screening of every facility of a chemical, from a conservative bound to a full assessment
+- Stops to ask for a missing value instead of guessing it
+- Long assessments run as background jobs, so the chat stays responsive while they finish
+- Dashboard, facility map and downloadable report, with bring-your-own-key accounts and a documented load test
+
+### Applications
+- Screening-level chemical exposure and risk assessment
+- Public health research and environmental risk assessment
+- Community advocacy with transparent, sourced results
+
+</div>
+
+</details>
+
+<details>
 <summary><strong>PyGREET</strong></summary>
 
 <div class="about-section" markdown="1">
