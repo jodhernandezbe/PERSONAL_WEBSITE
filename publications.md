@@ -94,7 +94,11 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
+- **Hernandez-Betancur, J. D.** (2026). *EcoFate: An artificial intelligence agent for screening-level chemical exposure assessment of communities and workers with deterministic calculations and traceable evidence*. Zenodo. [https://doi.org/10.5281/zenodo.24382158](https://doi.org/10.5281/zenodo.24382158)
+
 - Wang, M., Cai, H., Ou, L., Benvenutti, L., Elgowainy, A., Englander, J., Masum, F., Gan, Y., **Hernandez, J.**, Kim, T., Kelly, J. C., Kwon, H., Leonhardt, B., Liu, X., Lu, Z., Martinez, S., Sykora, T., & Vyawahare, P. (2026). *R&D Greenhouse gases, Regulated Emissions, and Energy use in Technologies Model ® (2025 Rev.1 Excel)* [Computer software]. U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy (EERE). [https://doi.org/10.11578/GREET-Excel-2025Rev1/dc.20260610.1](https://doi.org/10.11578/GREET-Excel-2025Rev1/dc.20260610.1)
+
+- Wang, M., Cai, H., **Hernandez, J.**, Ou, L., Sykora, T., Sokolov, V., Hamori, T., Elgowainy, A., Dickman, M., Mashianov, A., Olianych, D., Horbenko, A., Churik, B., Kuzmenko, D., & Novikov, M. (2025). *Development of the next generation GREET LCA model: Final technical report* (Project Award GREET TF-23AN020102). Argonne National Laboratory. [https://www.osti.gov/servlets/purl/2589538](https://www.osti.gov/servlets/purl/2589538)
 
 - Cobb, G. P., Apte, U., Baker, M., Chaisson, C., Eick, S., Fong, A., Fox, M., Gentry, R., Graham, C., Heiger-Bernays, W., Jenkins, A., Li, L., Merced-Nieves, F., Ottinger, M., Rubin, R., Rumpler, M., Sahmel, J., Wright, M., Engel, B., **Hernandez-Betancur, J.**, Kaluzhny, Y., Landis, W. G., Lynch, H. N., Maberti, S. I., Rose, J. L., Stice, S. A., & Zhu, H. (2024). Transmittal of meeting minutes and final report for the Science Advisory Committee on Chemicals September 17-19, 2024, virtual public meeting regarding EPA's 2024 draft risk evaluation for 1,1-dichloroethane and 2024 draft human health hazard assessment report for 1,2 dichloroethane. *U.S. Environmental Protection Agency*. [https://downloads.regulations.gov/EPA-HQ-OPPT-2024-0114-0086/content.pdf](https://downloads.regulations.gov/EPA-HQ-OPPT-2024-0114-0086/content.pdf)
 
