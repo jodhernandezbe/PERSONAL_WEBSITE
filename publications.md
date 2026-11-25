@@ -9,6 +9,8 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
+- **Hernandez-Betancur, J. D.**, & Ruiz-Mercado, G. J. (2026). A knowledge graph-augmented retrieval framework using Toxics Release Inventory source reduction records to support pollution prevention decisions. *ACS Sustainable Chemistry & Engineering* (submitted).
+
 - **Hernandez-Betancur, J. D.** (2026). Simulation-based multi-objective sustainability optimization of hot-dip galvanizing operating conditions under uncertainty and coating quality constraints. *Clean Technologies and Environmental Policy* (under review).
 
 - **Hernandez-Betancur, J. D.**, Sykora, T., Ou, L., Hamori, T., Sokolov, V., Elgowainy, A., Cai, H., & Wang, M. (2026). PyGREET: A modular Python platform of the GREET life cycle analysis model for technology assessment. *Environmental Modelling & Software*, *204*, 107072. [https://doi.org/10.1016/j.envsoft.2026.107072](https://doi.org/10.1016/j.envsoft.2026.107072)
