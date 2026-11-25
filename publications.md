@@ -9,7 +9,7 @@ permalink: /publications/
 
 <div class="research-area" markdown="1">
 
-- **Hernandez-Betancur, J. D.**, & Ruiz-Mercado, G. J. (2026). A knowledge graph-augmented retrieval framework using Toxics Release Inventory source reduction records to support pollution prevention decisions. *ACS Sustainable Chemistry & Engineering* (submitted).
+- **Hernandez-Betancur, J. D.**, & Ruiz-Mercado, G. J. (2026). A knowledge graph-augmented retrieval framework using Toxics Release Inventory source reduction records to support pollution prevention decisions. *ACS Sustainable Chemistry & Engineering* (under review).
 
 - **Hernandez-Betancur, J. D.** (2026). Simulation-based multi-objective sustainability optimization of hot-dip galvanizing operating conditions under uncertainty and coating quality constraints. *Clean Technologies and Environmental Policy* (under review).
 
